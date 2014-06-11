@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="watch" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="settings\;inc\;app\;inc\;inc\;app\;app\;lib\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/watch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add option="-DDEBUG_VERSION" />
+					<Add directory="./app" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/watch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add option="-DRELEASE_VERSION" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+			<Target title="Demo">
+				<Option output="bin/Demo/watch" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Demo/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DDEMO_VERSION" />
+				</Compiler>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="../APP/buzzer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="lib/" />
+		</Unit>
+		<Unit filename="../APP/buzzer.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/common.h">
+			<Option virtualFolder="settings/" />
+		</Unit>
+		<Unit filename="../APP/debug.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="lib/" />
+		</Unit>
+		<Unit filename="../APP/debug.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/defines.h">
+			<Option virtualFolder="settings/" />
+		</Unit>
+		<Unit filename="../APP/display.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="lib/" />
+		</Unit>
+		<Unit filename="../APP/display.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/key.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="lib/" />
+		</Unit>
+		<Unit filename="../APP/key.cfg">
+			<Option virtualFolder="settings/" />
+		</Unit>
+		<Unit filename="../APP/key.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/main.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="app/" />
+		</Unit>
+		<Unit filename="../APP/test.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="app/" />
+		</Unit>
+		<Unit filename="../APP/timer.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="lib/" />
+		</Unit>
+		<Unit filename="../APP/timer.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/types.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Unit filename="../APP/usecases.c">
+			<Option compilerVar="CC" />
+			<Option virtualFolder="app/" />
+		</Unit>
+		<Unit filename="../APP/usecases.h">
+			<Option virtualFolder="inc/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

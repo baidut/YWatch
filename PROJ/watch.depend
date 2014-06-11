@@ -1,0 +1,155 @@
+# depslib dependency file v1.0
+1400670521 source:d:\users\admin\desktop\watch\main.c
+	"usecases.h"
+	<stdlib.h>
+	<stdio.h>
+
+1400544820 d:\users\admin\desktop\watch\key.h
+
+1400544837 source:d:\users\admin\desktop\watch\key.c
+	"key.h"
+	<conio.h>
+
+1400503061 d:\users\admin\desktop\watch\timer.h
+	"common.h"
+
+1400670317 d:\users\admin\desktop\watch\common.h
+	"defines.h"
+	"types.h"
+	"debug.h"
+
+1400647710 d:\users\admin\desktop\watch\usertypes.h
+
+1400560745 source:d:\users\admin\desktop\watch\test.c
+	"key.h"
+	"timer.h"
+	<conio.h>
+	"buzzer.h"
+
+1400668395 source:d:\users\admin\desktop\watch\timer.c
+	"timer.h"
+	<time.h>
+
+1400629826 d:\users\admin\desktop\watch\display.h
+	"common.h"
+
+1400552736 source:d:\users\admin\desktop\watch\settime.c
+	"key.h"
+	"timer.h"
+	"display.h"
+
+1400559810 source:d:\users\admin\desktop\watch\buzzer.c
+	"buzzer.h"
+	<windows.h>
+
+1400513526 d:\users\admin\desktop\watch\buzzer.h
+	"common.h"
+
+1400548941 source:d:\users\admin\desktop\watch\sys.c
+	"sys.h"
+
+1400545004 d:\users\admin\desktop\watch\sys.h
+
+1400590044 d:\users\admin\desktop\watch\usecases.h
+	"common.h"
+
+1400672046 source:d:\users\admin\desktop\watch\usecases.c
+	"usecases.h"
+	"key.h"
+	"timer.h"
+	"display.h"
+	"buzzer.h"
+
+1400629966 source:d:\users\admin\desktop\watch\display.c
+	<stdio.h>
+	<stdlib.h>
+	"display.h"
+
+1400665192 d:\users\admin\desktop\watch\defines.h
+
+1400669074 d:\users\admin\desktop\watch\types.h
+
+1400671851 d:\users\admin\desktop\watch\debug.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1400671978 source:d:\users\admin\desktop\watch\debug.c
+	"debug.h"
+	<windows.h>
+
+1400838890 source:d:\users\admin\desktop\watch\app\buzzer.c
+	"buzzer.h"
+	<windows.h>
+
+1400513526 d:\users\admin\desktop\watch\app\buzzer.h
+	"common.h"
+
+1400851853 d:\users\admin\desktop\watch\app\common.h
+	"defines.h"
+	"types.h"
+	"debug.h"
+
+1401011473 d:\users\admin\desktop\watch\app\defines.h
+
+1400910545 d:\users\admin\desktop\watch\app\types.h
+
+1400910536 d:\users\admin\desktop\watch\app\debug.h
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+	<string.h>
+
+1400852339 source:d:\users\admin\desktop\watch\app\debug.c
+	"defines.h"
+	"debug.h"
+	<windows.h>
+
+1400911209 source:d:\users\admin\desktop\watch\app\display.c
+	<stdio.h>
+	<stdlib.h>
+	"display.h"
+
+1400827976 d:\users\admin\desktop\watch\app\display.h
+	"common.h"
+
+1400934116 source:d:\users\admin\desktop\watch\app\key.c
+	"key.h"
+	<conio.h>
+	"key.cfg"
+
+1400933768 d:\users\admin\desktop\watch\app\key.h
+	"common.h"
+	"key.cfg"
+
+1400911000 source:d:\users\admin\desktop\watch\app\main.c
+	<stdio.h>
+	"defines.h"
+	"debug.h"
+	"usecases.h"
+
+1400590044 d:\users\admin\desktop\watch\app\usecases.h
+	"common.h"
+
+1400560745 source:d:\users\admin\desktop\watch\app\test.c
+	"key.h"
+	"timer.h"
+	<conio.h>
+	"buzzer.h"
+
+1400503061 d:\users\admin\desktop\watch\app\timer.h
+	"common.h"
+
+1400838909 source:d:\users\admin\desktop\watch\app\timer.c
+	"timer.h"
+	<time.h>
+
+1400842170 source:d:\users\admin\desktop\watch\app\usecases.c
+	"usecases.h"
+	"key.h"
+	"timer.h"
+	"display.h"
+	"buzzer.h"
+
+1400933799 d:\users\admin\desktop\watch\app\key.cfg
+
